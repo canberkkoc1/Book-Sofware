@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+
+
+.root{
+    maxWidth: 345,
+  }
+.media {
+    height: 140,
+}
+
+span{
+    font-size: 20px;
+    color:pink;
+}
